@@ -6,6 +6,6 @@ namespace Banjo_kazooie_api.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<int> GameIds { get; set; }
+        public List<int> Games { get; set; }
     }
 }

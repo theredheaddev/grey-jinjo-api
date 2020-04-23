@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Banjo-Kazooie",
+        "released": "29 June 1998",
+        "platform": "Nintendo 64",
+        "characters": [
+            "http://localhost:5000/api/v1/chracters/1",
+            "http://localhost:5000/api/v1/chracters/2",
+            "http://localhost:5000/api/v1/chracters/3",
+            "http://localhost:5000/api/v1/chracters/4",
+            "http://localhost:5000/api/v1/chracters/5",
+            "http://localhost:5000/api/v1/chracters/6",
+            "http://localhost:5000/api/v1/chracters/7"
+        ],
+        "levels": [],
+        "collectables": []
+    },
+    {
+        "id": 2,
+        "name": "Banjo-Tooie",
+        "released": "20 November 2000",
+        "platform": "Nintendo 64",
+        "characters": [
+            "http://localhost:5000/api/v1/characters/1",
+            "http://localhost:5000/api/v1/characters/2",
+            "http://localhost:5000/api/v1/characters/3",
+            "http://localhost:5000/api/v1/characters/4",
+            "http://localhost:5000/api/v1/characters/6"
+        ],
+        "levels": [],
+        "collectables": []
+    }
+]

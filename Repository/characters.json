@@ -2,16 +2,58 @@
   {
     "id": 1,
     "name": "Banjo",
-    "gameIds": [1, 2]
+    "isMainCharacter": true,
+    "games": [
+      "http://localhost:5000/api/v1/games/1",
+      "http://localhost:5000/api/v1/games/2"
+    ]
   },
   {
     "id": 2,
     "name": "Kazooie",
-    "gameIds": [1, 2]
+    "isMainCharacter": true,
+    "games": [
+      "http://localhost:5000/api/v1/games/1",
+      "http://localhost:5000/api/v1/games/2"
+    ]
   },
   {
     "id": 3,
     "name": "Bottles",
-    "gameIds": [1, 2]
+    "isMainCharacter": true,
+    "games": [
+      "http://localhost:5000/api/v1/games/1",
+      "http://localhost:5000/api/v1/games/2"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gruntilda Winkybunion",
+    "isMainCharacter": true,
+    "games": [
+      "http://localhost:5000/api/v1/games/1",
+      "http://localhost:5000/api/v1/games/2"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tooty",
+    "isMainCharacter": true,
+    "games": ["http://localhost:5000/api/v1/games/1"]
+  },
+  {
+    "id": 6,
+    "name": "Klungo",
+    "isMainCharacter": true,
+    "games": [
+      "http://localhost:5000/api/v1/games/1",
+      "http://localhost:5000/api/v1/games/2"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Brentilda Winkybunion",
+    "isMainCharacter": true,
+    "games": ["http://localhost:5000/api/v1/games/1"]
   }
 ]
