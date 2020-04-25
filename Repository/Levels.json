@@ -1,114 +1,114 @@
 [
-    {
-        "id": 1,
-        "games": ["http://localhost:5000/api/games/1"],
-        "name": "Spiral Mountain",
-        "type": "Starter",
-        "level_number": null,
-        "jiggy_locations": [],
-        "jinjo_locations": [],
-        "empty_honeycomb_locations": [
-            "Defeat all the Quarries once you have learned the Beak Barge ability.",
-            "Defeat all the enemies in the veggie garden or defeat the lone Colliwobble if the tutorial is skipped",
-            "On one of the tree stumps where the duo learns their jumping abilities.",
-            "On top of the tree next to where you learn how to swim.",
-            "On a ledge between waterfalls. The Feathery Flap is required",
-            "In a small cave underwater, underneath the bridge."
-        ],
-        "life_locations": [
-            "Behind the large waterfall. The Feathery Flap is required",
-            "Hovering over Banjo's chimney. Either scale the house by jumping onto the trashcans and then the roof or simply Flap Flip onto the roof. "
-        ],
-        "collectables": [
-            "http://localhost:5000/api/collectables/7",
-            "http://localhost:5000/api/collectables/8"
-        ],
-        "enemies": [
-            "http://localhost:5000/api/enemies/1",
-            "http://localhost:5000/api/enemies/2",
-            "http://localhost:5000/api/enemies/3",
-            "http://localhost:5000/api/enemies/4"
-        ],
-        "areas": [
-            "http://localhost:5000/api/areas/1",
-            "http://localhost:5000/api/areas/2",
-            "http://localhost:5000/api/areas/3",
-            "http://localhost:5000/api/areas/4",
-            "http://localhost:5000/api/areas/5",
-            "http://localhost:5000/api/areas/6",
-            "http://localhost:5000/api/areas/7"     
-        ],
-        "abilities_learned": [
-            "http://localhost:5000/api/abilities/1",
-            "http://localhost:5000/api/abilities/2",
-            "http://localhost:5000/api/abilities/3",
-            "http://localhost:5000/api/abilities/4",
-            "http://localhost:5000/api/abilities/5",
-            "http://localhost:5000/api/abilities/6",
-            "http://localhost:5000/api/abilities/7"
-        ]
-    },
-    {
-        "id": 2,
-        "games": ["http://localhost:5000/api/games/1"],
-        "name": "Gruntilda's Lair",
-        "type": "Hub",
-        "level_number": null,
-        "jiggy_locations": [
-            "Left of the main entrance.",
-            "On top of the entrance to Mumbo's Mountain - access as termite. (Mumbo's Mountain)",
-            "On top of the ship near the entrance to Treasure Trove Cove - climb on cannon. (Treasure Trove Cove)",
-            "Beak Bust Gruntilda's eyes on the flat disc with her portrait. (Clanker's Cavern)",
-            "Jump inside the gold urn in the room just before Gobi's Valley - use jump pad activated through a room blocked by a breakable brick wall. (Bubblegloop Swamp)",
-            "In alcove high above the entrance to Freezeezy Peak - use flying pad under cobweb in nearby room- activate pad with switch in a lower alcove, and use running shoes to reach pad in time. (Freezeezy Peak)",
-            "Break the glass eye in the Gruntilda head - use flying pad under cobweb. (Mad Monster Mansion)",
-            "In alcove leading to the level 3 water switch. (Rusty Bucket Bay)",
-            "In alcove above the entrance to the Click Clock Wood area - access as bee. (Click Clock Wood)"
-        ],
-        "jinjo_locations": [],
-        "empty_honeycomb_locations": [
-            "Defeat all the Quarries once you have learned the Beak Barge ability.",
-            "Defeat all the enemies in the veggie garden or defeat the lone Colliwobble if the tutorial is skipped",
-            "On one of the tree stumps where the duo learns their jumping abilities.",
-            "On top of the tree next to where you learn how to swim.",
-            "On a ledge between waterfalls. The Feathery Flap is required",
-            "In a small cave underwater, underneath the bridge."
-        ],
-        "life_locations": [
-            "On the back of the Huge Grunty Statue's hat.",
-            "At the Bubblegloop Swamp entrance room, near the 3 logs, jump to the top of the middle one.",
-            "In the Mad Monster Mansion Puzzle room, after pushing the second water raise switch, go to the surface and you should see an Extra life.",
-            "Behind Mumbo's Shack (the house you can only enter if you're a pumpkin inside the graveyard).",
-            "Located behind some roots, in the room with the Click Clock Wood Puzzle.",
-            "Behind the entrance to Click Clock Wood, walk in the grass until Banjo rises a little out of the grass. Banjo is on top of a Shock Spring Pad! Use it to jump on top the Click Clock Wood entrance and collect an Extra life. You may also use the Bee transformation to get it.",
-            "Located on a window ledge near the last yellow Cauldron, after completing Grunty's Furnace Fun.",
-            "There are four extra lives inside Grunty's Furnace Fun."
-        ],
-        "collectables": [
-            "http://localhost:5000/api/collectables/7",
-            "http://localhost:5000/api/collectables/8"
-        ],
-        "enemies": [
-            "http://localhost:5000/api/enemies/5",
-            "http://localhost:5000/api/enemies/6",
-            "http://localhost:5000/api/enemies/7",
-            "http://localhost:5000/api/enemies/8",
-            "http://localhost:5000/api/enemies/9",
-            "http://localhost:5000/api/enemies/10",
-            "http://localhost:5000/api/enemies/11",
-            "http://localhost:5000/api/enemies/12",
-            "http://localhost:5000/api/enemies/13",
-            "http://localhost:5000/api/enemies/14",
-            "http://localhost:5000/api/enemies/15",
-            "http://localhost:5000/api/enemies/16",
-            "http://localhost:5000/api/enemies/17",
-            "http://localhost:5000/api/enemies/18",
-            "http://localhost:5000/api/enemies/19",
-            "http://localhost:5000/api/enemies/20",
-            "http://localhost:5000/api/enemies/21",
-            "http://localhost:5000/api/enemies/22"
-        ],
-        "areas": [],
-        "abilities_learned": []
-    }
+  {
+    "id": 1,
+    "games": ["http://localhost:5000/api/games/1"],
+    "name": "Spiral Mountain",
+    "type": "Starter",
+    "level_number": null,
+    "jiggy_locations": [],
+    "jinjo_locations": [],
+    "empty_honeycomb_locations": [
+      "Defeat all the Quarries once you have learned the Beak Barge ability.",
+      "Defeat all the enemies in the veggie garden or defeat the lone Colliwobble if the tutorial is skipped",
+      "On one of the tree stumps where the duo learns their jumping abilities.",
+      "On top of the tree next to where you learn how to swim.",
+      "On a ledge between waterfalls. The Feathery Flap is required",
+      "In a small cave underwater, underneath the bridge."
+    ],
+    "life_locations": [
+      "Behind the large waterfall. The Feathery Flap is required",
+      "Hovering over Banjo's chimney. Either scale the house by jumping onto the trashcans and then the roof or simply Flap Flip onto the roof. "
+    ],
+    "collectables": [
+      "http://localhost:5000/api/collectables/7",
+      "http://localhost:5000/api/collectables/8"
+    ],
+    "enemies": [
+      "http://localhost:5000/api/enemies/1",
+      "http://localhost:5000/api/enemies/2",
+      "http://localhost:5000/api/enemies/3",
+      "http://localhost:5000/api/enemies/4"
+    ],
+    "areas": [
+      "http://localhost:5000/api/areas/1",
+      "http://localhost:5000/api/areas/2",
+      "http://localhost:5000/api/areas/3",
+      "http://localhost:5000/api/areas/4",
+      "http://localhost:5000/api/areas/5",
+      "http://localhost:5000/api/areas/6",
+      "http://localhost:5000/api/areas/7"
+    ],
+    "abilities_learned": [
+      "http://localhost:5000/api/abilities/1",
+      "http://localhost:5000/api/abilities/2",
+      "http://localhost:5000/api/abilities/3",
+      "http://localhost:5000/api/abilities/4",
+      "http://localhost:5000/api/abilities/5",
+      "http://localhost:5000/api/abilities/6",
+      "http://localhost:5000/api/abilities/7"
+    ]
+  },
+  {
+    "id": 2,
+    "games": ["http://localhost:5000/api/games/1"],
+    "name": "Gruntilda's Lair",
+    "type": "Hub",
+    "level_number": null,
+    "jiggy_locations": [
+      "Left of the main entrance.",
+      "On top of the entrance to Mumbo's Mountain - access as termite. (Mumbo's Mountain)",
+      "On top of the ship near the entrance to Treasure Trove Cove - climb on cannon. (Treasure Trove Cove)",
+      "Beak Bust Gruntilda's eyes on the flat disc with her portrait. (Clanker's Cavern)",
+      "Jump inside the gold urn in the room just before Gobi's Valley - use jump pad activated through a room blocked by a breakable brick wall. (Bubblegloop Swamp)",
+      "In alcove high above the entrance to Freezeezy Peak - use flying pad under cobweb in nearby room- activate pad with switch in a lower alcove, and use running shoes to reach pad in time. (Freezeezy Peak)",
+      "Break the glass eye in the Gruntilda head - use flying pad under cobweb. (Mad Monster Mansion)",
+      "In alcove leading to the level 3 water switch. (Rusty Bucket Bay)",
+      "In alcove above the entrance to the Click Clock Wood area - access as bee. (Click Clock Wood)"
+    ],
+    "jinjo_locations": [],
+    "empty_honeycomb_locations": [
+      "Defeat all the Quarries once you have learned the Beak Barge ability.",
+      "Defeat all the enemies in the veggie garden or defeat the lone Colliwobble if the tutorial is skipped",
+      "On one of the tree stumps where the duo learns their jumping abilities.",
+      "On top of the tree next to where you learn how to swim.",
+      "On a ledge between waterfalls. The Feathery Flap is required",
+      "In a small cave underwater, underneath the bridge."
+    ],
+    "life_locations": [
+      "On the back of the Huge Grunty Statue's hat.",
+      "At the Bubblegloop Swamp entrance room, near the 3 logs, jump to the top of the middle one.",
+      "In the Mad Monster Mansion Puzzle room, after pushing the second water raise switch, go to the surface and you should see an Extra life.",
+      "Behind Mumbo's Shack (the house you can only enter if you're a pumpkin inside the graveyard).",
+      "Located behind some roots, in the room with the Click Clock Wood Puzzle.",
+      "Behind the entrance to Click Clock Wood, walk in the grass until Banjo rises a little out of the grass. Banjo is on top of a Shock Spring Pad! Use it to jump on top the Click Clock Wood entrance and collect an Extra life. You may also use the Bee transformation to get it.",
+      "Located on a window ledge near the last yellow Cauldron, after completing Grunty's Furnace Fun.",
+      "There are four extra lives inside Grunty's Furnace Fun."
+    ],
+    "collectables": [
+      "http://localhost:5000/api/collectables/7",
+      "http://localhost:5000/api/collectables/8"
+    ],
+    "enemies": [
+      "http://localhost:5000/api/enemies/5",
+      "http://localhost:5000/api/enemies/6",
+      "http://localhost:5000/api/enemies/7",
+      "http://localhost:5000/api/enemies/8",
+      "http://localhost:5000/api/enemies/9",
+      "http://localhost:5000/api/enemies/10",
+      "http://localhost:5000/api/enemies/11",
+      "http://localhost:5000/api/enemies/12",
+      "http://localhost:5000/api/enemies/13",
+      "http://localhost:5000/api/enemies/14",
+      "http://localhost:5000/api/enemies/15",
+      "http://localhost:5000/api/enemies/16",
+      "http://localhost:5000/api/enemies/17",
+      "http://localhost:5000/api/enemies/18",
+      "http://localhost:5000/api/enemies/19",
+      "http://localhost:5000/api/enemies/20",
+      "http://localhost:5000/api/enemies/21",
+      "http://localhost:5000/api/enemies/22"
+    ],
+    "areas": [],
+    "abilities_learned": []
+  }
 ]

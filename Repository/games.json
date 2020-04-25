@@ -14,7 +14,8 @@
             "http://localhost:5000/api/chracters/7"
         ],
         "levels": [
-            "http://localhost:5000/api/levels/1"
+            "http://localhost:5000/api/levels/1",
+            "http://localhost:5000/api/levels/2"
         ],
         "collectables": [
             "http://localhost:5000/api/collectables/1",
