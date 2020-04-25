@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Topper",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 2,
+    "name": "Bawl",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 3,
+    "name": "Colliwobble",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 5,
+    "name": "Whipcrack",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 6,
+    "name": "Grille Chompa",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 7,
+    "name": "Gruntling",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 8,
+    "name": "Beehive",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 9,
+    "name": "Chump",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 10,
+    "name": "Tee-Hee",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 11,
+    "name": "Bigbutt",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 12,
+    "name": "Ticker",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 13,
+    "name": "Snippet",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 14,
+    "name": "Shrapnel",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 15,
+    "name": "Grille Chompa",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 16,
+    "name": "Buzzbomb",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 17,
+    "name": "Sir Slush",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 18,
+    "name": "Chinker",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 19,
+    "name": "Mum-mum",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 20,
+    "name": "Scabby",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 21,
+    "name": "Ripper",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 22,
+    "name": "Flotsam",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  },
+  {
+    "id": 23,
+    "name": "Big Clucker",
+    "appears_in_level": ["http://localhost:5000/api/games/1"]
+  }
+]

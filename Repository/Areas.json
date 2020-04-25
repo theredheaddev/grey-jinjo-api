@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Banjo's House",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    },
+    {
+        "id": 2,
+        "name": "Veggie Garden",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    },
+    {
+        "id": 3,
+        "name": "Lake & Waterfalls",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    },
+    {
+        "id": 4,
+        "name": "Tree Stumps",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    },
+    {
+        "id": 5,
+        "name": "Spiral Mountain (mountain)",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    },
+    {
+        "id": 6,
+        "name": "Grunty's Bridge",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    },
+    {
+        "id": 7,
+        "name": "Gruntilda's Lair",
+        "appears_in": ["http://localhost:5000/api/levels/1"]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Controls"
+    },
+    {
+        "id": 2,
+        "name": "Claw Swipe"
+    },
+    {
+        "id": 3,
+        "name": "Forward Roll"
+    },
+    {
+        "id": 4,
+        "name": "Rat-a-tat Rap"
+    },
+    {
+        "id": 5,
+        "name": "Feathery Flap"
+    },
+    {
+        "id": 6,
+        "name": "Flap Flip"
+    },
+    {
+        "id": 7,
+        "name": "Beak Barge"
+    }
+]

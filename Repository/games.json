@@ -5,16 +5,27 @@
         "released": "29 June 1998",
         "platform": "Nintendo 64",
         "characters": [
-            "http://localhost:5000/api/v1/chracters/1",
-            "http://localhost:5000/api/v1/chracters/2",
-            "http://localhost:5000/api/v1/chracters/3",
-            "http://localhost:5000/api/v1/chracters/4",
-            "http://localhost:5000/api/v1/chracters/5",
-            "http://localhost:5000/api/v1/chracters/6",
-            "http://localhost:5000/api/v1/chracters/7"
+            "http://localhost:5000/api/chracters/1",
+            "http://localhost:5000/api/chracters/2",
+            "http://localhost:5000/api/chracters/3",
+            "http://localhost:5000/api/chracters/4",
+            "http://localhost:5000/api/chracters/5",
+            "http://localhost:5000/api/chracters/6",
+            "http://localhost:5000/api/chracters/7"
         ],
-        "levels": [],
-        "collectables": []
+        "levels": [
+            "http://localhost:5000/api/levels/1"
+        ],
+        "collectables": [
+            "http://localhost:5000/api/collectables/1",
+            "http://localhost:5000/api/collectables/2",
+            "http://localhost:5000/api/collectables/3",
+            "http://localhost:5000/api/collectables/4",
+            "http://localhost:5000/api/collectables/5",
+            "http://localhost:5000/api/collectables/6",
+            "http://localhost:5000/api/collectables/7",
+            "http://localhost:5000/api/collectables/8"
+        ]
     },
     {
         "id": 2,

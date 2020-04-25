@@ -20,7 +20,7 @@ namespace Banjo_kazooie_api.Controllers
         {
             try
             {
-                return Ok(this.gamesService.GetGames());
+                return Ok(await this.gamesService.GetGames());
             }
             catch (Exception ex)
             {

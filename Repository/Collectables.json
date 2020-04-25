@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Jiggy"
+  },
+  {
+      "id": 2,
+      "name": "Note"
+  },
+  {
+      "id": 3,
+      "name": "Empty Honeycomb"
+  },
+  {
+      "id": 4,
+      "name": "Jinjo"
+  },
+  {
+      "id": 5,
+      "name": "Egg"
+  },
+  {
+      "id": 6,
+      "name": "Mumbo Token"
+  },
+  {
+      "id": 7,
+      "name": "Life"
+  },
+  {
+      "id": 8,
+      "name": "Filled Honeycomb"
+  }
+]
