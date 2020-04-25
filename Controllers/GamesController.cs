@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banjo_kazooie_api.Controllers
@@ -8,9 +9,10 @@ namespace Banjo_kazooie_api.Controllers
     [ApiController]
     public class GamesController: ControllerBase
     {
-        public GamesController()
+        private readonly IGamesService gamesService;
+        public GamesController(IGamesService gamesService)
         {
-
+            this.gamesService = gamesService;
         }
 
         [HttpGet]
@@ -18,7 +20,7 @@ namespace Banjo_kazooie_api.Controllers
         {
             try
             {
-                return Ok();
+                return Ok(this.gamesService.GetGames());
             }
             catch (Exception ex)
             {
