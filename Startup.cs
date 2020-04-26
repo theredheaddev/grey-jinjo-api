@@ -32,6 +32,7 @@ namespace Banjo_kazooie_api
             
             services.Configure<FilePaths>(Configuration.GetSection("FilePaths"));
 
+            services.AddTransient<IAbilitiesService, AbilitiesService>();
             services.AddTransient<ICharactersService, CharactersService>();
             services.AddTransient<IGamesService, GamesService>();
 

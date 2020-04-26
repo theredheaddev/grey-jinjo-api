@@ -6,28 +6,28 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Banjo_kazooie_api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/{Controller}")]
     [ApiController]
-    public class GamesController: ControllerBase
+    public class AbilitiesController: ControllerBase
     {
-        private readonly IGamesService gamesService;
-        public GamesController(IGamesService gamesService)
+        private readonly IAbilitiesService abilitiesService;
+        public AbilitiesController(IAbilitiesService abilitiesService)
         {
-            this.gamesService = gamesService;
+            this.abilitiesService = abilitiesService;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetGames()
+        public async Task<IActionResult> GetAbilities()
         {
             try
             {
-                return Ok(await this.gamesService.GetGames());
+                return Ok(await abilitiesService.GetAbilities());
             }
             catch(FileNotFoundException ex)
             {
                 return BadRequest(ex);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 return BadRequest(ex);
             }
