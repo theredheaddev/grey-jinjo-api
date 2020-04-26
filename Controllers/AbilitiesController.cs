@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Banjo_kazooie_api.Controllers
 {
-    [Route("api/{Controller}")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class AbilitiesController: ControllerBase
     {
