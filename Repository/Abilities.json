@@ -26,5 +26,17 @@
     {
         "id": 7,
         "name": "Beak Barge"
+    },
+    {
+        "id": 8,
+        "name": "Talon Trot"
+    },
+    {
+        "id": 9,
+        "name": "Beak Buster"
+    },
+    {
+        "id": 10,
+        "name": "Egg Firing"
     }
 ]

@@ -33,5 +33,45 @@
     "id": 7,
     "name": "Gruntilda's Lair",
     "appears_in": ["http://localhost:5000/api/levels/1"]
+  },
+  {
+    "id": 8,
+    "name": "Entrance Area",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 9,
+    "name": "Village",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 10,
+    "name": "Mumbo's Skull",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 11,
+    "name": "Juju",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 12,
+    "name": "Ticker's Tower",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 13,
+    "name": "Stonehenge-like Ruins",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 14,
+    "name": "Conga's Tree",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
+  },
+  {
+    "id": 15,
+    "name": "Lake",
+    "appears_in": ["http://localhost:5000/api/levels/3"]
   }
 ]

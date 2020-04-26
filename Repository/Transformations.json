@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Termite",
+        "game": "http://localhost:5000/api/games/1",
+        "quantity": 5,
+        "required_item": "http://localhost:5000/api/collectables/6",
+        "level": "http://localhost:5000/api/levels/3"
+    }
+]

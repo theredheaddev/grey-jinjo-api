@@ -110,5 +110,85 @@
     ],
     "areas": [],
     "abilities_learned": []
+  },
+  {
+    "id": 3,
+    "games": ["http://localhost:5000/api/games/1"],
+    "name": "Mumbo's Mountain",
+    "type": "Main",
+    "level_number": 1,
+    "jiggy_locations": [
+      "Destroy Conga's Blocks: At Conga's Tree, you must make Conga throw an orange at you while you are on top of one of the orange blocks on the ground. Make him hit all three blocks to obtain a Jiggy.",
+      "Feed Chimpy: Climb up Conga's Tree and grab the orange. Walk over to Chimpy and give him the orange in exchange for a Jiggy. Chimpy will also raise the stump to access the ledges above. ",
+      "Defeat Conga: Stand on the top tree platform so you are at equal height with Conga and fire Eggs at him when his guard is down. After 3 hits, he will drop a Jiggy.",
+      "Outside Mumbo's Skull: The Jiggy is inside the left eye of Mumbo's Skull. Flap Flip to reach it. ",
+      "Destroy the Huts: Destroy the huts in the village with the Beak Buster. The last one destroyed contains a Jiggy.",
+      "Near the Ruins: In the middle of the Stonehenge-like ruins, near the molehill where Bottles teaches you the Talon Trot. ",
+      "Feed Juju: Fire eggs into each mouth of the Juju Totem Pole until they all have disappeared and a Jiggy will appear. Be sure to collect the Extra Honeycomb before feeding the last segment!",
+      "Scale the Hill: On the steep hill between the Village and the Entrance area. Can be obtained using the Talon Trot, as the Termite or by jumping down from the top of the hill. ",
+      "Climb Ticker's Tower: Transform into a Termite and enter Ticker's Tower. Inside, scale the ledges and webs to reach the top and a Jiggy will be outside at the very top of the tower. ",
+      "Find the Jinjos: Find all 5 Jinjos." 
+    ],
+    "jinjo_locations": [
+      "Blue: On an island in the middle of the lake.",
+      "Green: In the 4th destroyed hut in the village.",
+      "Orange: On the Stonehenge-like ruins.",
+      "Purple: On a platform near the Entrance area.",
+      "Yellow: On the slope between the Ruins and Conga's Tree."
+    ],
+    "empty_honeycomb_locations": [
+      "In a small alcove on the hill above the lake. Can be obtained as the Termite or by carefully jumping down from the top of the hill.",
+      "When one segment of the Juju Totem Pole is left, jump on top of it and Flap Flip to retrieve the Extra Honeycomb"
+    ],
+    "life_locations": [
+      "At the top of Ticker's Tower.",
+      "Inside the 5th destroyed hut in the village."
+    ],
+    "collectables": [
+      "http://localhost:5000/api/collectables/7",
+      "http://localhost:5000/api/collectables/8"
+    ],
+    "witch_switches": [
+      "Located on the edges near Conga's Tree. Banjo must have already raised the tree stump on which Chimpy is standing (see Jiggy #2). The Jiggy appears at the top of the world entrance in Gruntilda's Lair. Exit the world as the Termite and climb the mountain to get it."
+    ],
+    "mumbo_tokens": [
+      "Behind the Purple Jinjo.",
+      "On one of the edges near Conga .",
+      "Inside Ticker's Tower.",
+      "Behind the Stonehenge-like Ruins.",
+      "Under the small ramp to Mumbo's Skull."
+    ],
+    "mini_games": [],
+    "characters": [
+      "http://localhost:5000/api/characters/4",
+      "http://localhost:5000/api/characters/8",
+      "http://localhost:5000/api/characters/9",
+      "http://localhost:5000/api/characters/10"
+    ],
+    "enemies": [
+      "http://localhost:5000/api/enemies/8",
+      "http://localhost:5000/api/enemies/12",
+      "http://localhost:5000/api/enemies/24",
+      "http://localhost:5000/api/enemies/11",
+      "http://localhost:5000/api/enemies/25"
+    ],
+    "transformations": [
+      "http://localhost:5000/api/transformations/1"
+    ],
+    "areas": [
+      "http://localhost:5000/api/areas/8",
+      "http://localhost:5000/api/areas/9",
+      "http://localhost:5000/api/areas/10",
+      "http://localhost:5000/api/areas/11",
+      "http://localhost:5000/api/areas/12",
+      "http://localhost:5000/api/areas/13",
+      "http://localhost:5000/api/areas/14",
+      "http://localhost:5000/api/areas/15"
+    ],
+    "abilities_learned": [
+      "http://localhost:5000/api/abilities/8",
+      "http://localhost:5000/api/abilities/9",
+      "http://localhost:5000/api/abilities/10"
+    ]
   }
 ]

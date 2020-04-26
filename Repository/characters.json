@@ -55,5 +55,23 @@
     "name": "Brentilda Winkybunion",
     "isMainCharacter": true,
     "games": ["http://localhost:5000/api/v1/games/1"]
+  },
+  {
+    "id": 8,
+    "name": "Juju the Totem Pole",
+    "isMainCharacter": false,
+    "games": ["http://localhost:5000/api/v1/games/1"]
+  },
+  {
+    "id": 9,
+    "name": "Chimpy the Chimp",
+    "isMainCharacter": true,
+    "games": ["http://localhost:5000/api/v1/games/1"]
+  },
+  {
+    "id": 10,
+    "name": "Mumbo Jumbo",
+    "isMainCharacter": true,
+    "games": ["http://localhost:5000/api/v1/games/1"]
   }
 ]
