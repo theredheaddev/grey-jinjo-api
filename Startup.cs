@@ -29,9 +29,13 @@ namespace Banjo_kazooie_api
             services.Configure<FilePaths>(Configuration.GetSection("FilePaths"));
 
             services.AddTransient<IAbilitiesService, AbilitiesService>();
+            services.AddTransient<IAreasService, AreasService>();
             services.AddTransient<ICharactersService, CharactersService>();
+            services.AddTransient<ICollectablesService, CollectablesService>();
+            services.AddTransient<IEnemiesService, EnemiesService>();
             services.AddTransient<IGamesService, GamesService>();
-
+            services.AddTransient<ILevelsService, LevelsService>();
+            services.AddTransient<ITransformationsService, TransformationsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +51,8 @@ namespace Banjo_kazooie_api
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // Commented out due to being unneeded thanks to NGINX
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
