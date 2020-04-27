@@ -5,13 +5,13 @@
         "released": "29 June 1998",
         "platform": "Nintendo 64",
         "characters": [
-            "http://localhost:5000/api/chracters/1",
-            "http://localhost:5000/api/chracters/2",
-            "http://localhost:5000/api/chracters/3",
-            "http://localhost:5000/api/chracters/4",
-            "http://localhost:5000/api/chracters/5",
-            "http://localhost:5000/api/chracters/6",
-            "http://localhost:5000/api/chracters/7"
+            "http://localhost:5000/api/characters/1",
+            "http://localhost:5000/api/characters/2",
+            "http://localhost:5000/api/characters/3",
+            "http://localhost:5000/api/characters/4",
+            "http://localhost:5000/api/characters/5",
+            "http://localhost:5000/api/characters/6",
+            "http://localhost:5000/api/characters/7"
         ],
         "levels": [
             "http://localhost:5000/api/levels/1",
