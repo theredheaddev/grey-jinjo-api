@@ -24,6 +24,12 @@ namespace Banjo_kazooie_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => {
+                options.AddPolicy(name: "all", builder => {
+                    builder.WithOrigins("*").AllowAnyMethod();
+                });
+            });
+
             services.AddControllers();
 
             services.Configure<FilePaths>(Configuration.GetSection("FilePaths"));
@@ -55,6 +61,8 @@ namespace Banjo_kazooie_api
             // app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("all");
 
             app.UseEndpoints(endpoints =>
             {
