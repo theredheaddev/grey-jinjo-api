@@ -46,7 +46,12 @@
       "http://localhost:5000/api/abilities/5",
       "http://localhost:5000/api/abilities/6",
       "http://localhost:5000/api/abilities/7"
-    ]
+    ],
+    "witch_switches": [],
+    "mumbo_tokens": [],
+    "mini_games": [],
+    "transformations": [],
+    "characters": ["http://localhost:5000/api/characters/3"]
   },
   {
     "id": 2,
@@ -109,7 +114,12 @@
       "http://localhost:5000/api/enemies/22"
     ],
     "areas": [],
-    "abilities_learned": []
+    "witch_switches": [],
+    "mumbo_tokens": [],
+    "mini_games": [],
+    "abilities_learned": [],
+    "transformations": [],
+    "characters": []
   },
   {
     "id": 3,
@@ -160,6 +170,7 @@
     ],
     "mini_games": [],
     "characters": [
+      "http://localhost:5000/api/characters/3",
       "http://localhost:5000/api/characters/4",
       "http://localhost:5000/api/characters/8",
       "http://localhost:5000/api/characters/9",

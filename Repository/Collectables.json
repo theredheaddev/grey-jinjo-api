@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Jiggy"
+    "name": "Jiggy",
+    "quantity": 90
   },
   {
     "id": 2,
