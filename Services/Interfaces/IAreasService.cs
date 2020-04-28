@@ -7,5 +7,6 @@ namespace Banjo_kazooie_api.Services.Interfaces
     public interface IAreasService
     {
         Task<List<Area>> GetAreas();
+        Task<Area> GetById(int id);
     }
 }

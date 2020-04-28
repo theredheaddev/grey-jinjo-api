@@ -32,5 +32,22 @@ namespace Banjo_kazooie_api.Controllers
                 return BadRequest(ex);
             }
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                return Ok(await charactersService.GetById(id));
+            }
+            catch(FileNotFoundException fileNotFoundEx)
+            {
+                return BadRequest(fileNotFoundEx);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }

@@ -7,5 +7,6 @@ namespace Banjo_kazooie_api.Services.Interfaces
     public interface ILevelsService
     {
         Task<List<Level>> GetLevels();
+        Task<Level> GetById(int id);
     }
 }

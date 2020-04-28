@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Banjo_kazooie_api.Helpers;
 using Banjo_kazooie_api.Models;
@@ -19,6 +20,15 @@ namespace Banjo_kazooie_api.Services
         {
             var content = await RepositoryParser.ParseRepository<List<Level>>(filePaths.Levels);
             return content;
+        }
+
+        public async Task<Level> GetById(int id)
+        {
+            var levels = await GetLevels();
+
+            var item = levels.First(x => x.Id == id);
+
+            return item;
         }
     }
 }

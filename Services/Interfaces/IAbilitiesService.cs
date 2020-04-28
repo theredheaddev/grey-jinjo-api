@@ -7,5 +7,6 @@ namespace Banjo_kazooie_api.Services.Interfaces
     public interface IAbilitiesService
     {
         Task<List<Ability>> GetAbilities();
+        Task<Ability> GetById(int id);
     }
 }

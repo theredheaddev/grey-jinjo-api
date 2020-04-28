@@ -6,7 +6,7 @@ using Banjo_kazooie_api.Services.Interfaces;
 
 namespace Banjo_kazooie_api.Controllers
 {
-    [Route("api/[Controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CollectablesControler: ControllerBase
     {
@@ -22,6 +22,23 @@ namespace Banjo_kazooie_api.Controllers
             try
             {
                 return Ok(await collectablesService.GetCollectables());
+            }
+            catch(FileNotFoundException ex)
+            {
+                return BadRequest(ex);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                return Ok(await collectablesService.GetById(id));
             }
             catch(FileNotFoundException ex)
             {

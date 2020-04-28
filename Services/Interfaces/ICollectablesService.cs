@@ -7,5 +7,6 @@ namespace Banjo_kazooie_api.Services.Interfaces
     public interface ICollectablesService
     {
         Task<List<Collectable>> GetCollectables();
+        Task<Collectable> GetById(int id);
     }
 }

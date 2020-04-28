@@ -7,5 +7,6 @@ namespace Banjo_kazooie_api.Services.Interfaces
     public interface IEnemiesService
     {
         Task<List<Enemy>> GetEnemies();
+        Task<Enemy> GetById(int id);
     }
 }
