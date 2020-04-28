@@ -79,7 +79,7 @@ namespace Banjo_kazooie_api.Services
             if (query.LevelId != null)
             {
                 games = games.Where(x =>
-                    query.GameId.Any(id =>
+                    query.LevelId.Any(id =>
                         x.Levels.Any(
                             y => y.Contains(id.ToString())
                         )
