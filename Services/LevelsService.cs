@@ -67,7 +67,16 @@ namespace Banjo_kazooie_api.Services
             if (query.LevelId != null)
             {
                 levels = levels.Where(x =>
-                    query.GameId.Any(id =>
+                    query.LevelId.Any(id =>
+                        x.Id == id
+                    )
+                ).ToList();
+            }
+
+            if (query.LevelNumber != null)
+            {
+                levels = levels.Where(x =>
+                    query.LevelNumber.Any(id =>
                         x.Id == id
                     )
                 ).ToList();

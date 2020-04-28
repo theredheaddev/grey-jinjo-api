@@ -4,7 +4,7 @@
     "appears_in_game": ["http://localhost:5000/api/games/1"],
     "name": "Spiral Mountain",
     "type": "Starter",
-    "level_number": null,
+    "level_number": 0,
     "jiggy_locations": [],
     "jinjo_locations": [],
     "empty_honeycomb_locations": [
@@ -58,7 +58,7 @@
     "appears_in_game": ["http://localhost:5000/api/games/1"],
     "name": "Gruntilda's Lair",
     "type": "Hub",
-    "level_number": null,
+    "level_number": 0,
     "jiggy_locations": [
       "Left of the main entrance.",
       "On top of the entrance to Mumbo's Mountain - access as termite. (Mumbo's Mountain)",
