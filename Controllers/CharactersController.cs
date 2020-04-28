@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Banjo_kazooie_api.Models.QueryObjects;
 using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,11 +18,11 @@ namespace Banjo_kazooie_api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] CharacterQuery query)
         {
             try
             {
-                return Ok(await charactersService.GetCharacters());
+                return Ok(await charactersService.GetCharacters(query));
             }
             catch(FileNotFoundException fileNotFoundEx)
             {

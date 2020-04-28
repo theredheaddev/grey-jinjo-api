@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Banjo_kazooie_api.Helpers;
 using Banjo_kazooie_api.Models;
+using Banjo_kazooie_api.Models.QueryObjects;
 using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.Extensions.Options;
 
@@ -16,7 +17,7 @@ namespace Banjo_kazooie_api.Services
             this.filePaths = filePaths.Value;
         }
 
-        public async Task<List<Level>> GetLevels()
+        public async Task<List<Level>> GetLevels(LevelQuery query)
         {
             var content = await RepositoryParser.ParseRepository<List<Level>>(filePaths.Levels);
             return content;
@@ -24,7 +25,7 @@ namespace Banjo_kazooie_api.Services
 
         public async Task<Level> GetById(int id)
         {
-            var levels = await GetLevels();
+            var levels = await GetLevels(null);
 
             var item = levels.First(x => x.Id == id);
 

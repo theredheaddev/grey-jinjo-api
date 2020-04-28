@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Banjo_kazooie_api.Services.Interfaces;
+using Banjo_kazooie_api.Models.QueryObjects;
 
 namespace Banjo_kazooie_api.Controllers
 {
@@ -17,11 +18,11 @@ namespace Banjo_kazooie_api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAreas()
+        public async Task<IActionResult> GetAreas([FromQuery] AreaQuery query)
         {
             try
             {
-                return Ok(await areasService.GetAreas());
+                return Ok(await areasService.GetAreas(query));
             }
             catch(FileNotFoundException ex)
             {

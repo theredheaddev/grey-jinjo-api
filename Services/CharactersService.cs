@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Banjo_kazooie_api.Helpers;
 using Banjo_kazooie_api.Models;
+using Banjo_kazooie_api.Models.QueryObjects;
 using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
@@ -18,7 +19,7 @@ namespace Banjo_kazooie_api.Services
             this.filePaths = filePaths.Value;
         }
 
-        public async Task<List<Character>> GetCharacters()
+        public async Task<List<Character>> GetCharacters(CharacterQuery query)
         {
             var contents = await RepositoryParser.ParseRepository<List<Character>>(filePaths.Characters);
             return contents;
@@ -26,7 +27,7 @@ namespace Banjo_kazooie_api.Services
 
         public async Task<Character> GetById(int id)
         {
-            var characters = await GetCharacters();
+            var characters = await GetCharacters(null);
 
             var item = characters.First(x => x.Id == id);
 

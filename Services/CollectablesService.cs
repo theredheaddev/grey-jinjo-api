@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Banjo_kazooie_api.Helpers;
 using Banjo_kazooie_api.Models;
+using Banjo_kazooie_api.Models.QueryObjects;
 using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.Extensions.Options;
 
@@ -15,7 +16,7 @@ namespace Banjo_kazooie_api.Services
         {
             this.filePaths = filePaths.Value;
         }
-        public async Task<List<Collectable>> GetCollectables()
+        public async Task<List<Collectable>> GetCollectables(CollectableQuery query)
         {
             var content = await RepositoryParser.ParseRepository<List<Collectable>>(filePaths.Collectables);
             return content;
@@ -23,7 +24,7 @@ namespace Banjo_kazooie_api.Services
 
         public async Task<Collectable> GetById(int id)
         {
-            var collectables = await GetCollectables();
+            var collectables = await GetCollectables(null);
 
             var item = collectables.First(x => x.Id == id);
 

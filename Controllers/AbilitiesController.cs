@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Banjo_kazooie_api.Models.QueryObjects;
 using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,11 +18,11 @@ namespace Banjo_kazooie_api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAbilities()
+        public async Task<IActionResult> GetAbilities([FromQuery] AbilityQuery query)
         {
             try
             {
-                return Ok(await abilitiesService.GetAbilities());
+                return Ok(await abilitiesService.GetAbilities(query));
             }
             catch(FileNotFoundException ex)
             {

@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Banjo_kazooie_api.Helpers;
 using Banjo_kazooie_api.Models;
+using Banjo_kazooie_api.Models.QueryObjects;
 using Banjo_kazooie_api.Services.Interfaces;
 using Microsoft.Extensions.Options;
 
@@ -16,7 +17,7 @@ namespace Banjo_kazooie_api.Services
             this.filePaths = filePaths.Value;
         }
 
-        public async Task<List<Area>> GetAreas()
+        public async Task<List<Area>> GetAreas(AreaQuery query)
         {
             var content = await RepositoryParser.ParseRepository<List<Area>>(filePaths.Areas);
             return content;
@@ -24,7 +25,7 @@ namespace Banjo_kazooie_api.Services
 
         public async Task<Area> GetById(int id)
         {
-            var areas = await GetAreas();
+            var areas = await GetAreas(null);
             
             var item = areas.First(x => x.Id == id);
 
