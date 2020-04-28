@@ -154,7 +154,15 @@
       "At the top of Ticker's Tower.",
       "Inside the 5th destroyed hut in the village."
     ],
-    "collectables": [
+    "collectables": [     
+      "http://localhost:5000/api/collectables/1",
+      "http://localhost:5000/api/collectables/2",
+      "http://localhost:5000/api/collectables/3",
+      "http://localhost:5000/api/collectables/4",
+      "http://localhost:5000/api/collectables/5",
+      "http://localhost:5000/api/collectables/6",
+      "http://localhost:5000/api/collectables/7",
+      "http://localhost:5000/api/collectables/8",
       "http://localhost:5000/api/collectables/7",
       "http://localhost:5000/api/collectables/8"
     ],

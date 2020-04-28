@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace Banjo_kazooie_api.Models
@@ -7,7 +8,7 @@ namespace Banjo_kazooie_api.Models
         public int Id { get; set; }
         public string Name { get; set; }
         [JsonProperty("game_quantity")]
-        public GameQuantity GameQuantity { get; set; }
+        public List<GameQuantity> GameQuantity { get; set; }
     }
 
     public class GameQuantity

@@ -21,7 +21,9 @@ namespace Banjo_kazooie_api.Services
         {
             var content = await RepositoryParser.ParseRepository<List<Ability>>(filePaths.Abilities);
 
-            return content;
+            var queryedItems = FilterAbilites(content, query);
+
+            return queryedItems;
         }
 
         public async Task<Ability> GetById(int id)
@@ -29,8 +31,31 @@ namespace Banjo_kazooie_api.Services
             var abilities = await GetAbilities(null);
 
             var item = abilities.First(x => x.Id == id);
-            
+
             return item;
+        }
+
+        private List<Ability> FilterAbilites(List<Ability> abilities, AbilityQuery query)
+        {
+            if (query == null) return abilities;
+
+            if (query.Id != null)
+            {
+                abilities = abilities.Where(x => query.Id.IndexOf(x.Id) >= 0).ToList();
+            }
+
+            if (query.Name != null)
+            {
+                abilities = abilities.Where(x => 
+                    query.Name.Where(y => 
+                        x.Name.ToLower()
+                            .Contains(y.ToLower()
+                        )
+                    ).Count() > 0)
+                .ToList();
+            }
+
+            return abilities;
         }
     }
 }

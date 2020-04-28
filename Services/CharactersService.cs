@@ -22,7 +22,10 @@ namespace Banjo_kazooie_api.Services
         public async Task<List<Character>> GetCharacters(CharacterQuery query)
         {
             var contents = await RepositoryParser.ParseRepository<List<Character>>(filePaths.Characters);
-            return contents;
+
+            var queryedItems = FilterCharacters(contents, query);
+
+            return queryedItems;
         }
 
         public async Task<Character> GetById(int id)
@@ -32,6 +35,45 @@ namespace Banjo_kazooie_api.Services
             var item = characters.First(x => x.Id == id);
 
             return item;
+        }
+
+        private List<Character> FilterCharacters(List<Character> characters, CharacterQuery query)
+        {
+            if (query == null) return characters;
+
+            if (query.Id != null)
+            {
+                characters = characters.Where(x => query.Id.IndexOf(x.Id) >= 0).ToList();
+            }
+
+            if (query.Name != null)
+            {
+                characters = characters.Where(x =>
+                    query.Name.Any(y =>
+                        x.Name.ToLower()
+                            .Contains(y.ToLower()
+                        )
+                    )
+                ).ToList();
+            }
+
+            if (query.GameId != null)
+            {
+                characters = characters.Where(x =>
+                    query.GameId.Any(id =>
+                        x.AppearsInGame.Any(
+                            y => y.Contains(id.ToString())
+                        )
+                    )
+                ).ToList();
+            }
+
+            if (query.IsMainCharacter != null)
+            {
+                characters = characters.Where(x => x.IsMainCharacter == query.IsMainCharacter).ToList();
+            }
+
+            return characters;
         }
     }
 }
