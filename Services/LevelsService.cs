@@ -59,7 +59,9 @@ namespace Banjo_kazooie_api.Services
             {
                 levels = levels.Where(x =>
                     query.GameId.Any(id =>
-                        x.Id == id
+                        x.AppearsInGame.Any(
+                            y => y.Contains(id.ToString())
+                        )
                     )
                 ).ToList();
             }
@@ -77,7 +79,7 @@ namespace Banjo_kazooie_api.Services
             {
                 levels = levels.Where(x =>
                     query.LevelNumber.Any(id =>
-                        x.Id == id
+                        x.LevelNumber == id
                     )
                 ).ToList();
             }
