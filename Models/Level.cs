@@ -7,7 +7,8 @@ namespace Banjo_kazooie_api.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<string> Games { get; set; }
+        [JsonProperty("appears_in_game")]
+        public List<string> AppearsInGame { get; set; }
         public string Type { get; set; }
         [JsonProperty("level_number")]
         public int? LevelNumber { get; set; }

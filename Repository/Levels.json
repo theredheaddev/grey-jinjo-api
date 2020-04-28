@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "games": ["http://localhost:5000/api/games/1"],
+    "appears_in_game": ["http://localhost:5000/api/games/1"],
     "name": "Spiral Mountain",
     "type": "Starter",
     "level_number": null,
@@ -55,7 +55,7 @@
   },
   {
     "id": 2,
-    "games": ["http://localhost:5000/api/games/1"],
+    "appears_in_game": ["http://localhost:5000/api/games/1"],
     "name": "Gruntilda's Lair",
     "type": "Hub",
     "level_number": null,
@@ -123,7 +123,7 @@
   },
   {
     "id": 3,
-    "games": ["http://localhost:5000/api/games/1"],
+    "appears_in_game": ["http://localhost:5000/api/games/1"],
     "name": "Mumbo's Mountain",
     "type": "Main",
     "level_number": 1,

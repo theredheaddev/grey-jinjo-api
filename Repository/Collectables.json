@@ -2,34 +2,101 @@
   {
     "id": 1,
     "name": "Jiggy",
-    "quantity": 90
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": 100
+      },
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": 90
+      }
+    ]
   },
   {
     "id": 2,
-    "name": "Note"
+    "name": "Note",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": 900
+      },
+      {
+        "game": "https://www.grey-jinjo.com/api/games/2",
+        "quantity": 900
+      }
+    ]
   },
   {
     "id": 3,
-    "name": "Empty Honeycomb"
+    "name": "Empty Honeycomb",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": 24
+      },
+      {
+        "game": "https://www.grey-jinjo.com/api/games/2",
+        "quantity": 25
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "Jinjo"
+    "name": "Jinjo",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": 45
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "Egg"
+    "name": "Egg",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": null
+      },
+      {
+        "game": "https://www.grey-jinjo.com/api/games/2",
+        "quantity": null
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "Mumbo Token"
+    "name": "Mumbo Token",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": 115
+      }
+    ]
   },
   {
     "id": 7,
-    "name": "Life"
+    "name": "Life",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": null
+      }
+    ]
   },
   {
     "id": 8,
-    "name": "Filled Honeycomb"
+    "name": "Filled Honeycomb",
+    "game_quantity": [
+      {
+        "game": "https://www.grey-jinjo.com/api/games/1",
+        "quantity": null
+      },
+      {
+        "game": "https://www.grey-jinjo.com/api/games/2",
+        "quantity": null
+      }
+    ]
   }
 ]
