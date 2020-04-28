@@ -5,27 +5,27 @@
         "released": "29 June 1998",
         "platform": "Nintendo 64",
         "characters": [
-            "http://localhost:5000/api/characters/1",
-            "http://localhost:5000/api/characters/2",
-            "http://localhost:5000/api/characters/3",
-            "http://localhost:5000/api/characters/4",
-            "http://localhost:5000/api/characters/5",
-            "http://localhost:5000/api/characters/6",
-            "http://localhost:5000/api/characters/7"
+            "https://www.greyjinjo.com/api/characters/1",
+            "https://www.greyjinjo.com/api/characters/2",
+            "https://www.greyjinjo.com/api/characters/3",
+            "https://www.greyjinjo.com/api/characters/4",
+            "https://www.greyjinjo.com/api/characters/5",
+            "https://www.greyjinjo.com/api/characters/6",
+            "https://www.greyjinjo.com/api/characters/7"
         ],
         "levels": [
-            "http://localhost:5000/api/levels/1",
-            "http://localhost:5000/api/levels/2"
+            "https://www.greyjinjo.com/api/levels/1",
+            "https://www.greyjinjo.com/api/levels/2"
         ],
         "collectables": [
-            "http://localhost:5000/api/collectables/1",
-            "http://localhost:5000/api/collectables/2",
-            "http://localhost:5000/api/collectables/3",
-            "http://localhost:5000/api/collectables/4",
-            "http://localhost:5000/api/collectables/5",
-            "http://localhost:5000/api/collectables/6",
-            "http://localhost:5000/api/collectables/7",
-            "http://localhost:5000/api/collectables/8"
+            "https://www.greyjinjo.com/api/collectables/1",
+            "https://www.greyjinjo.com/api/collectables/2",
+            "https://www.greyjinjo.com/api/collectables/3",
+            "https://www.greyjinjo.com/api/collectables/4",
+            "https://www.greyjinjo.com/api/collectables/5",
+            "https://www.greyjinjo.com/api/collectables/6",
+            "https://www.greyjinjo.com/api/collectables/7",
+            "https://www.greyjinjo.com/api/collectables/8"
         ]
     },
     {
@@ -34,11 +34,11 @@
         "released": "20 November 2000",
         "platform": "Nintendo 64",
         "characters": [
-            "http://localhost:5000/api/v1/characters/1",
-            "http://localhost:5000/api/v1/characters/2",
-            "http://localhost:5000/api/v1/characters/3",
-            "http://localhost:5000/api/v1/characters/4",
-            "http://localhost:5000/api/v1/characters/6"
+            "https://www.greyjinjo.com/api/v1/characters/1",
+            "https://www.greyjinjo.com/api/v1/characters/2",
+            "https://www.greyjinjo.com/api/v1/characters/3",
+            "https://www.greyjinjo.com/api/v1/characters/4",
+            "https://www.greyjinjo.com/api/v1/characters/6"
         ],
         "levels": [],
         "collectables": []

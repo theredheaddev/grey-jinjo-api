@@ -2,9 +2,9 @@
     {
         "id": 1,
         "name": "Termite",
-        "appears_in_game": "http://localhost:5000/api/games/1",
+        "appears_in_game": "https://www.greyjinjo.com/api/games/1",
         "quantity": 5,
-        "required_item": "http://localhost:5000/api/collectables/6",
-        "appears_in_level": "http://localhost:5000/api/levels/3"
+        "required_item": "https://www.greyjinjo.com/api/collectables/6",
+        "appears_in_level": "https://www.greyjinjo.com/api/levels/3"
     }
 ]

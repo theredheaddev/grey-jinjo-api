@@ -9,10 +9,10 @@ namespace Banjo_kazooie_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CollectablesControler: ControllerBase
+    public class CollectablesController: ControllerBase
     {
         private readonly ICollectablesService collectablesService;
-        public CollectablesControler(ICollectablesService collectablesService)
+        public CollectablesController(ICollectablesService collectablesService)
         {
             this.collectablesService = collectablesService;
         }
