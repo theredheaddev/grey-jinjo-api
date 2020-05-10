@@ -88,5 +88,47 @@
     "name": "Lake",
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/3"],
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 16,
+    "name": "Entrance Dock",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 17,
+    "name": "Sandcastle",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 18,
+    "name": "Lighthouse Arch",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 19,
+    "name": "The Salty Hippo",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 20,
+    "name": "Sharkfood Island",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 21,
+    "name": "Nipper's Private Beach",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
+  },
+  {
+    "id": 22,
+    "name": "Spiral Tower",
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"],
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"]
   }
 ]

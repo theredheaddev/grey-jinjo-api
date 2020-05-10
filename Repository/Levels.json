@@ -61,14 +61,14 @@
     "level_number": 0,
     "jiggy_locations": [
       "Left of the main entrance.",
-      "On top of the entrance to Mumbo's Mountain - access as termite. (Mumbo's Mountain)",
-      "On top of the ship near the entrance to Treasure Trove Cove - climb on cannon. (Treasure Trove Cove)",
+      "On top of the entrance to Mumbo's Mountain: access as termite. (Mumbo's Mountain)",
+      "On top of the ship near the entrance to Treasure Trove Cove: climb on cannon. (Treasure Trove Cove)",
       "Beak Bust Gruntilda's eyes on the flat disc with her portrait. (Clanker's Cavern)",
-      "Jump inside the gold urn in the room just before Gobi's Valley - use jump pad activated through a room blocked by a breakable brick wall. (Bubblegloop Swamp)",
-      "In alcove high above the entrance to Freezeezy Peak - use flying pad under cobweb in nearby room- activate pad with switch in a lower alcove, and use running shoes to reach pad in time. (Freezeezy Peak)",
-      "Break the glass eye in the Gruntilda head - use flying pad under cobweb. (Mad Monster Mansion)",
+      "Jump inside the gold urn in the room just before Gobi's Valley: use jump pad activated through a room blocked by a breakable brick wall. (Bubblegloop Swamp)",
+      "In alcove high above the entrance to Freezeezy Peak: use flying pad under cobweb in nearby room- activate pad with switch in a lower alcove, and use running shoes to reach pad in time. (Freezeezy Peak)",
+      "Break the glass eye in the Gruntilda head: use flying pad under cobweb. (Mad Monster Mansion)",
       "In alcove leading to the level 3 water switch. (Rusty Bucket Bay)",
-      "In alcove above the entrance to the Click Clock Wood area - access as bee. (Click Clock Wood)"
+      "In alcove above the entrance to the Click Clock Wood area: access as bee. (Click Clock Wood)"
     ],
     "jinjo_locations": [],
     "empty_honeycomb_locations": [
@@ -137,7 +137,7 @@
       "Feed Juju: Fire eggs into each mouth of the Juju Totem Pole until they all have disappeared and a Jiggy will appear. Be sure to collect the Extra Honeycomb before feeding the last segment!",
       "Scale the Hill: On the steep hill between the Village and the Entrance area. Can be obtained using the Talon Trot, as the Termite or by jumping down from the top of the hill. ",
       "Climb Ticker's Tower: Transform into a Termite and enter Ticker's Tower. Inside, scale the ledges and webs to reach the top and a Jiggy will be outside at the very top of the tower. ",
-      "Find the Jinjos: Find all 5 Jinjos." 
+      "Find the Jinjos: Find all 5 Jinjos."
     ],
     "jinjo_locations": [
       "Blue: On an island in the middle of the lake.",
@@ -154,7 +154,7 @@
       "At the top of Ticker's Tower.",
       "Inside the 5th destroyed hut in the village."
     ],
-    "collectables": [     
+    "collectables": [
       "https://www.greyjinjo.com/api/collectables/1",
       "https://www.greyjinjo.com/api/collectables/2",
       "https://www.greyjinjo.com/api/collectables/3",
@@ -170,7 +170,7 @@
       "Located on the edges near Conga's Tree. Banjo must have already raised the tree stump on which Chimpy is standing (see Jiggy #2). The Jiggy appears at the top of the world entrance in Gruntilda's Lair. Exit the world as the Termite and climb the mountain to get it."
     ],
     "mumbo_tokens": [
-      "Behind the Purple Jinjo.",
+      "Behind Nipper's shell.",
       "On one of the edges near Conga .",
       "Inside Ticker's Tower.",
       "Behind the Stonehenge-like Ruins.",
@@ -191,9 +191,7 @@
       "https://www.greyjinjo.com/api/enemies/11",
       "https://www.greyjinjo.com/api/enemies/25"
     ],
-    "transformations": [
-      "https://www.greyjinjo.com/api/transformations/1"
-    ],
+    "transformations": ["https://www.greyjinjo.com/api/transformations/1"],
     "areas": [
       "https://www.greyjinjo.com/api/areas/8",
       "https://www.greyjinjo.com/api/areas/9",
@@ -208,6 +206,98 @@
       "https://www.greyjinjo.com/api/abilities/8",
       "https://www.greyjinjo.com/api/abilities/9",
       "https://www.greyjinjo.com/api/abilities/10"
+    ]
+  },
+  {
+    "id": 4,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "name": "Treasure Trove Cove",
+    "type": "Main",
+    "level_number": 2,
+    "jiggy_locations": [
+      "Top of the Lighthouse: At the very top of the world, sitting on top of the lighthouse. Can either be flown to directly or accessed by flying atop to the rock arch and climbing the rest of the way up. Break open the door on the lighthouse using a Beak Barge or Rat-a-tat Rap to reach the top of the lighthouse.",
+      "Rescue Blubber's Gold: Rescue the two pieces of Captain Blubber's gold, which are sunk in the wreckage of The Salty Hippo. One piece is accessible by simply swimming into the hole on the side of the ship. The other is accessed by using a Beak Buster on a slight dip on the ship itself.",
+      "Defeat Nipper: To defeat Nipper, use Kazooie's Rat-a-tat Rap to hit Nipper's eyes. Nipper will swing his claws 4 times before pausing, giving an opportunity for Kazooie to strike. Do this three times to beat him (running at him with a Talon Trot makes the fight much easier). Enter his shell after defeating him and find the Jiggy inside",
+      "Defeat Little Lockup:  At the top of the Spiral Tower, use Kazooie's Beak Buster on the giant red X. Continue using Beak Buster on the X's as you make a counter-clockwise path around the island (Flying isn't required, but it is much faster). Upon reaching the 5th X, on the largest pillar in the Pillar Area, a question mark will replace the usual arrow when slammed, but the final X is located on a small isle nearby. Little Lockup will emerge after slamming the final X. Use any attack (other than the Forward Roll attack) to destroy it and the Jiggy will pop out.",
+      "Inside the Sandcastle: Fire two eggs from Kazooie's backside into Leaky and it will in turn drain the water around the sandcastle. Inside the sandcastle, spell out \"BANJOKAZOOIE\" using the Beak Buster within the time limit and the gate housing the Jiggy and Black Snippet will open up.",
+      "In the Arch's Lockup: In the large rock arch on the opposite side of the staircase, leading to the top of the arch, is a Lockup in an alcove. It contains the Jiggy. Be mindful, as this Lockup opens and closes at a slightly faster pace than the other ones.",
+      "Across the Ledges: Next to the lowest ladder, across from the Spiral Tower, is a narrow diverging path that leads to a series of alcoves, crates and ledges. At the end of this path is a Jiggy.",
+      "Across the Shock Spring Pads: Inside an alcove reached by a series of Shock Spring Jumps near the molehill where Bottles teaches you said move.",
+      "Under the Shrapnel: At the bottom of a pool of water at the top of a set of ladders. Guarded by a Shrapnel",
+      "Find the Jinjos: Find all 5 Jinjos."
+    ],
+    "jinjo_locations": [
+      "Blue: In the sea, under the entrance platform.",
+      "Green: At the top of the pole above Captain Blubber's ship.",
+      "Orange:  On a small, narrow pathway above a shallow pool.",
+      "Purple: On one of the pillars in the Pillar area.",
+      "Yellow: On a palm tree at the top of the Island. Unlike the other palm trees, this one is on its own platform, lower than the other trees."
+    ],
+    "empty_honeycomb_locations": [
+      "Underwater, in a corner near Nipper, against a green wall.",
+      "On a box floating between the Spiral Tower and Little Lockup Isle."
+    ],
+    "life_locations": [
+      "On the box floating next to Sharkfood Island.",
+      "In the water between the first gap in the path up the Spiral Tower.",
+      "In a little rock pool above the rock pool area."
+    ],
+    "collectables": [
+      "https://www.greyjinjo.com/api/collectables/1",
+      "https://www.greyjinjo.com/api/collectables/2",
+      "https://www.greyjinjo.com/api/collectables/3",
+      "https://www.greyjinjo.com/api/collectables/4",
+      "https://www.greyjinjo.com/api/collectables/5",
+      "https://www.greyjinjo.com/api/collectables/6",
+      "https://www.greyjinjo.com/api/collectables/7",
+      "https://www.greyjinjo.com/api/collectables/8",
+      "https://www.greyjinjo.com/api/collectables/7",
+      "https://www.greyjinjo.com/api/collectables/8"
+    ],
+    "witch_switches": [
+      "Located behind the Lighthouse. The Jiggy is shot from a cannon in Treasure Trove Cove's entrance room in Gruntilda's Lair, landing on the ship across from it."
+    ],
+    "mumbo_tokens": [
+      "Behind the Purple Jinjo.",
+      "Above the molehill where you learn the Shock Spring Jump.",
+      "Under the lookout mast of The Salty Hippo.",
+      "On one of the crates under the arch.",
+      "In one of the rock pools, underneath a Shrapnel.",
+      "Two of them are in a Lockup near the rock pool stairs.",
+      "Behind the largest, tallest pillar in the pillar area.",
+      "On a crate below the deck of the The Salty Hippo.",
+      "In the entrance to the lighthouse on top of the arch."
+    ],
+    "mini_games": ["https://www.greyjinjo.com/api/minigames/1"],
+    "characters": [
+      "https://www.greyjinjo.com/api/characters/3",
+      "https://www.greyjinjo.com/api/characters/11",
+      "https://www.greyjinjo.com/api/characters/12"
+    ],
+    "enemies": [
+      "https://www.greyjinjo.com/api/enemies/8",
+      "https://www.greyjinjo.com/api/enemies/13",
+      "https://www.greyjinjo.com/api/enemies/14",
+      "https://www.greyjinjo.com/api/enemies/26",
+      "https://www.greyjinjo.com/api/enemies/27",
+      "https://www.greyjinjo.com/api/enemies/28",
+      "https://www.greyjinjo.com/api/enemies/29",
+      "https://www.greyjinjo.com/api/enemies/30",
+      "https://www.greyjinjo.com/api/enemies/31"
+    ],
+    "transformations": [],
+    "areas": [
+      "https://www.greyjinjo.com/api/areas/16",
+      "https://www.greyjinjo.com/api/areas/17",
+      "https://www.greyjinjo.com/api/areas/18",
+      "https://www.greyjinjo.com/api/areas/19",
+      "https://www.greyjinjo.com/api/areas/20",
+      "https://www.greyjinjo.com/api/areas/21",
+      "https://www.greyjinjo.com/api/areas/22"
+    ],
+    "abilities_learned": [
+      "https://www.greyjinjo.com/api/abilities/11",
+      "https://www.greyjinjo.com/api/abilities/12"
     ]
   }
 ]

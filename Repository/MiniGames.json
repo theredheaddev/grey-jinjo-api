@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "description": "This Mini-Game is found in the Sandcastle located inside Treasure Trove Cove.",
+    "rules": "Banjo and Kazooie must use the Beak Buster ability to pound the letter tiles. They need to spell B-A-N-J-O-K-A-Z-O-O-I-E in 100 seconds to open the cage and acquire the Jiggy. If the timer hits 0, the player will have to start over. This mini-game is also in Grunty's Furnace Fun, but it is done in reverse (EIOOZAKOJNAB) and the time limit is shortened to 50 seconds. ",
+    "area": "https://www.greyjinjo.com/api/areas/17",
+    "appearsInLevel": "https://www.greyjinjo.com/api/levels/4",
+    "appearsInGame": "https://www.greyjinjo.com/api/games/1"
+  }
+]

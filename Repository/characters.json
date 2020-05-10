@@ -73,5 +73,20 @@
     "name": "Mumbo Jumbo",
     "isMainCharacter": true,
     "appears_in_game": ["https://www.greyjinjo.com/api/v1/games/1"]
+  },
+  {
+    "id": 11,
+    "name": "Leaky the Broken Pail",
+    "isMainCharacter": false,
+    "appears_in_game": ["https://www.greyjinjo.com/api/v1/games/1"]
+  },
+  {
+    "id": 12,
+    "name": "Captain Blubber the Hippo",
+    "isMainCharacter": false,
+    "appears_in_game": [
+      "https://www.greyjinjo.com/api/v1/games/1",
+      "https://www.greyjinjo.com/api/v1/games/2"
+    ]
   }
 ]

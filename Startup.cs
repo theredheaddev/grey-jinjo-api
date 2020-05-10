@@ -24,8 +24,10 @@ namespace Banjo_kazooie_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(options => {
-                options.AddPolicy(name: "all", builder => {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "all", builder =>
+                {
                     builder.WithOrigins("*").AllowAnyMethod();
                 });
             });
@@ -41,6 +43,7 @@ namespace Banjo_kazooie_api
             services.AddTransient<IEnemiesService, EnemiesService>();
             services.AddTransient<IGamesService, GamesService>();
             services.AddTransient<ILevelsService, LevelsService>();
+            services.AddTransient<IMiniGamesService, MiniGamesService>();
             services.AddTransient<ITransformationsService, TransformationsService>();
         }
 

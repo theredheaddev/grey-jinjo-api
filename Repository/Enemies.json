@@ -2,145 +2,223 @@
   {
     "id": 1,
     "name": "Topper",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/1"]
   },
   {
     "id": 2,
     "name": "Bawl",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/1"]
   },
   {
     "id": 3,
     "name": "Colliwobble",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/1"]
   },
   {
     "id": 5,
     "name": "Whipcrack",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/1"]
   },
   {
     "id": 6,
     "name": "Grille Chompa",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 7,
     "name": "Gruntling",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 8,
     "name": "Beehive",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
-    "appears_in_level": ["https://www.greyjinjo.com/api/levels/2", "https://www.greyjinjo.com/api/levels/3"]
+    "appears_in_level": [
+      "https://www.greyjinjo.com/api/levels/2",
+      "https://www.greyjinjo.com/api/levels/3"
+    ]
   },
   {
     "id": 9,
     "name": "Chump",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 10,
     "name": "Tee-Hee",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
-    "appears_in_level": ["https://www.greyjinjo.com/api/levels/2", "https://www.greyjinjo.com/api/levels/3"]
+    "appears_in_level": [
+      "https://www.greyjinjo.com/api/levels/2",
+      "https://www.greyjinjo.com/api/levels/3"
+    ]
   },
   {
     "id": 11,
     "name": "Bigbutt",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
-    "appears_in_level": ["https://www.greyjinjo.com/api/levels/2", "https://www.greyjinjo.com/api/levels/3"]
+    "appears_in_level": [
+      "https://www.greyjinjo.com/api/levels/2",
+      "https://www.greyjinjo.com/api/levels/3"
+    ]
   },
   {
     "id": 12,
     "name": "Ticker",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
-    "appears_in_level": ["https://www.greyjinjo.com/api/levels/2", "https://www.greyjinjo.com/api/levels/3"]
+    "appears_in_level": [
+      "https://www.greyjinjo.com/api/levels/2",
+      "https://www.greyjinjo.com/api/levels/3"
+    ]
   },
   {
     "id": 13,
     "name": "Snippet",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 14,
     "name": "Shrapnel",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 15,
     "name": "Grille Chompa",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 16,
     "name": "Buzzbomb",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 17,
     "name": "Sir Slush",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 18,
     "name": "Chinker",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 19,
     "name": "Mum-mum",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 20,
     "name": "Scabby",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 21,
     "name": "Ripper",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 22,
     "name": "Flotsam",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 23,
     "name": "Big Clucker",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/2"]
   },
   {
     "id": 24,
     "name": "Grublin",
+    "isBoss": false,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/3"]
   },
   {
     "id": 25,
     "name": "Conga",
+    "isBoss": true,
     "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
     "appears_in_level": ["https://www.greyjinjo.com/api/levels/3"]
+  },
+  {
+    "id": 26,
+    "name": "Lockup",
+    "isBoss": false,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"]
+  },
+  {
+    "id": 27,
+    "name": "Little Lockup",
+    "isBoss": false,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"]
+  },
+  {
+    "id": 28,
+    "name": "Black Snippet",
+    "isBoss": false,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"]
+  },
+  {
+    "id": 29,
+    "name": "Yum-Yum",
+    "isBoss": false,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"]
+  },
+  {
+    "id": 30,
+    "name": "Snacker the Shark",
+    "isBoss": false,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"]
+  },
+  {
+    "id": 31,
+    "name": "Nipper",
+    "isBoss": true,
+    "appears_in_game": ["https://www.greyjinjo.com/api/games/1"],
+    "appears_in_level": ["https://www.greyjinjo.com/api/levels/4"]
   }
 ]
